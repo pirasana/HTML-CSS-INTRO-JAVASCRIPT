@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+header { 
+    background-image: url(image/header.jpg); 
+    height: 250px; 
+    opacity: 0.4;
+}
+
+#info { 
+    background-color: beige; 
+    margin: 20px 200px 20px 100px; 
+    padding: 50px 100px; 
+    border-radius: 30px; 
+    display: flex; 
+    font-family: 'Comfortaa', cursive;
+    min-width: 400px;
+}
+
+@media only screen and (max-width: 940px) {
+    #info {
+      display:inherit;
+      padding: inherit;
+    }
+  }
+
+#info img { 
+    width: 150px;
+    margin-right: 50px;
+}
+
+
+
+
+
+footer {
+   margin: 50px;
+   font-family: 'Comfortaa';
+}
+footer div {
+   display: flex;
+   margin: 0px 120px;
+}
+footer img { 
+    border-radius: 30px; 
+    height:100px;
+    box-shadow: 0px 0px 50px 0px rgb(0 0 0 / 10%);
+}
+footer b:hover {
+    font-size: 22px;
+    color: yellow;
+}
+#nav { 
+    margin-left: 25%;
+    margin-top: 3%;
+}
+footer a {
+    text-decoration: none; 
+    color: grey;
+    padding-right: 50px;
+}
+footer a:hover {
+    color: yellow;
+}
+
+
+
+
+
+
+
+.form-title {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+
+}
+
+.titlefont {
+    font-size: 40px;
+}
+
+#Name, #Email, #Subject, #URL {
+
+font-size: 18px;
+height: 50px;
+width: 700px;
+
+}
+
+#Message {
+   
+   height: 150px;
+   width: 700px;
+
+}
+
+.formbutton {
+
+    
+padding: 15px 50px 15px 50px;
+border-bottom-right-radius: 5px ;
+border-bottom-left-radius: 5px ;
+border-top-right-radius: 5px ;
+border-top-left-radius: 5px ;
+background-color: rgb(104, 165, 173) ;
+color: rgb(255, 255, 255);
+position: relative;
+
+font-size: 16px;
+
+
+}
+
+.form {
+
+background-color: beige;
+
+}
+
+.label{
+    position: relative;
+    right: 300px;
+}
